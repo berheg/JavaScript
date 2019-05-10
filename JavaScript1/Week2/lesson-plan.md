@@ -26,7 +26,7 @@ For exercises https://www.codewars.com is a good site.
   - Function creation 
     - Parameters - Acts as placeholders
     - Parameters vs arguments
-    - Return value - Variable can capture return value
+    - Return value - Variable can capture return value. 
     - Calling a function on something
   - [Code inspiration](#functions)
   - [Code inspiration 2](#if-and-function)
@@ -40,6 +40,8 @@ For exercises https://www.codewars.com is a good site.
   - [Code inspiration](#for-loop)
   - [Exercise string logger](#for-loop-1)
   - [Exercise send emails](#send-emails)
+
+The students really struggle with the **return** value. What it means, how it is captured. What happens when nothing is returned etc. Try really hammering in this concept with lots of simple examples and exercises! Fx if a function is called get something. That means that something is returned from that function.
 
 ## Code inspiration
 
@@ -191,13 +193,6 @@ function outerFunction() {
         console.log(outerFunctionScope);
         
         const innerFunctionScope = 'innerFunctionScope';
-
-        if (true) {
-            const blockScope = 'blockScope';
-            console.log(innerFunctionScope);
-        }
-
-        console.log(blockScope)
     }
 
     console.log(innerFunctionScope);
@@ -206,6 +201,13 @@ function outerFunction() {
 }
 
 outerFunction();
+
+
+if (true) {
+    const blockScope = 'blockScope';
+}
+
+console.log(blockScope)
 ```
 
 ### For loop
@@ -246,6 +248,8 @@ const balance = 1000;
 ```
 
 ### Function
+Create a function called `getCircleArea`. It should have the `radius` of the circle as parameter and return the circle area. What happens if we dont return anything in the function?
+
 Create a function called `celciusToFahreneit` it should have a parameter called `celcius`. It should return the temperature in fahrenheit. 
 
 Try call the function and check with google if the function returns the right value.

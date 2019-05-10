@@ -11,6 +11,8 @@
 
 To find examples of what teachers have taught before go to the class branches in the classwork folder, Fx [class 07](https://github.com/HackYourFuture-CPH/JavaScript/tree/class07/JavaScript1/Week1/classwork)
 
+For exercises https://www.codewars.com is a good site.
+
 ---
 
 - Intro JavaScript

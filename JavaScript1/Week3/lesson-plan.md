@@ -41,13 +41,13 @@ For exercises https://www.codewars.com is a good site.
 ```js
 // one way to have multiple data about a student is with an array
 // for each piece of data
-var studentNames = [
+const studentNames = [
   'Fowad',
   'Emil',
   'Zoey'
 ]
 
-var studentAges = [
+const studentAges = [
   32,
   25,
   28
@@ -57,7 +57,7 @@ console.log(studentNames)
 console.log(studentAges)
 
 // Another, more ergonomic way is with objects
-var students = [
+const students = [
   { name: 'Fowad', age: 32 },
   { name: 'Emil', age: 25, teacher: true },
   { name: 'Zoey', age: 28 }
@@ -68,7 +68,7 @@ console.log(students)
 console.log(students[0].name)
 
 // One object that we have seen before
-var Math = {
+const Math = {
   random: function () {
     return 42
   },
@@ -77,7 +77,7 @@ var Math = {
 }
 
 
-var person = {
+const person = {
   name: 'Emil',
   age: 25,
   role: 'Teacher',
@@ -115,7 +115,7 @@ graduatedClass(person, 'HTML')
 console.log(person)
 graduatedClass(person, 'HTML')
 
-var newPerson = {
+const newPerson = {
   name: '',
   age: ''
 }
@@ -135,7 +135,7 @@ console.log(students)
 person.name
 person['name']
 
-var prop = 'name'
+const prop = 'name'
 person[prop]
 
 person['name'] = 'Maria'
